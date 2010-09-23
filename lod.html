@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Force-Directed Layout</title>
+    <script type="text/javascript" src="protovis-r3.2.js"></script>
+    <script type="text/javascript" src="lod.js"></script>
+    <style type="text/css">
+    body {
+      margin: 0;
+    }
+    </style>
+  </head>
+  <body>
+  <script type="text/javascript+protovis">
+
+function nodeColor(node) {
+    if (node.rating == 5)
+        return "green";
+    else if (node.rating == 4)
+        return "lightgreen";
+    else if (node.rating == 3)
+        return "orange";
+    else if (node.rating = 2)
+        return "pink"
+    else if (node.rating = 1)
+        return "red";
+    else 
+        return "white";
+}
+
+var w = document.body.clientWidth,
+    h = document.body.clientHeight,
+    colors = pv.Colors.category19();
+
+var vis = new pv.Panel()
+    .width(w)
+    .height(h)
+    .fillStyle("white")
+    .event("mousedown", pv.Behavior.pan())
+    .event("mousewheel", pv.Behavior.zoom());
+
+var force = vis.add(pv.Layout.Force)
+    .nodes(lod.nodes)
+    .links(lod.links)
+    .bound(true)
+    .springDamping(0.1)
+    .springLength(10)
+    .springConstant(0.000001);
+
+force.link.add(pv.Line);
+
+force.node.add(pv.Dot)
+    .size(function(d) (d.linkDegree + 4) * Math.pow(this.scale, -1.5))
+    .fillStyle(function(d) nodeColor(d))
+    .strokeStyle(function() this.fillStyle().darker())
+    .lineWidth(1)
+    .title(function(d) d.nodeName)
+    .event("mousedown", pv.Behavior.drag())
+    .event("drag", force);
+
+vis.render();
+
+    </script>
+  </body>
+</html>

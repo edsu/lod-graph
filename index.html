@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linked Open Data Touchgraph</title>
+        <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+            body {
+                margin-left: 10%;
+                margin-right: 10%;
+                font-family: "Inconsolata";
+            }
+            h1 {
+                font-size: 26pt;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            #content {
+                width: 100%;
+            }
+            #graph_console {
+                width: 100%;
+            }
+            #graph {
+                height: 650px;
+                width: 100%;
+                border-color: ltgray;
+            }
+            #about {
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Linked Open Data Touchgraph</h1>
+        <div id="content">
+        <div id="about">
+            <p>
+            This is a touchgraph version of the 
+            <a href="http://lod-cloud.net/">Linked Open Data Cloud</a>. 
+            It is based on the same underlying data using the 
+            Comprehensive Knowledge Archive Network (CKAN) 
+            <a href="http://knowledgeforge.net/ckan/doc/ckan/api.html">API</a>
+            to pull all the packages in the the 
+            <a href="http://ckan.net/group/lodcloud">lodcloud</a> group.
+            If your screen <b>goes crazy</b> cross your fingers and try to 
+            reload the page a couple times. The colors reflect the 
+            CKAN rating: (<span style="color: black">0</span>,
+            <span style="color: red;">1</span>,
+            <span style="color: pink;">2</span>,
+            <span style="color: orange;">3</span>,
+            <span style="color: lightgreen;">4</span>,
+            <span style="color: green;">5</span>)
+            More about how this graph was 
+            generated can be found on 
+            <a href="http://github.com/edsu/lod-cloud">Github</a>.
+            Comments/questions welcome at
+            <a href="mailto:ehs@pobox.com">ehs@pobox.com</a>. 
+            </p>
+        </div>
+        <div id="graph_console">
+            <iframe id="graph" src="lod.html"></iframe>
+        </div>
+        </div>
+        <br />
+        <br />
+        <br />
+    </body>
+</html>
