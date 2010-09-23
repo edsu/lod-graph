@@ -49,9 +49,14 @@ def get_nodes(packages):
             rating = 0
         else:
             rating = int(round(float(package['ratings_average'])))
+        if 'triples' in package['extras']:
+            triples = int(package['extras']['triples'])
+        else:
+            triples = 1000
         nodes.append({
             'rating': rating,
-            'nodeName': package['title']})
+            'nodeName': package['title'],
+            'triples': triples})
     return nodes
 
 
@@ -73,9 +78,14 @@ def get_links(packages):
                     log.error("%s has link to %s which doesn't exist" % \
                             (from_package['name'], to_package_name))
                     continue
+                try:
+                    count = int(from_package['extras'][key])
+                except ValueError:
+                    count = 1
                 links.append({
                     'source': from_package['internal_id'],
-                    'target': package_map[to_package_name]['internal_id']})
+                    'target': package_map[to_package_name]['internal_id'],
+                    'count': count})
     return links
 
 
