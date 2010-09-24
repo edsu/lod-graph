@@ -1,20 +1,17 @@
 #!/usr/bin/env python
 
 """
-This is a little script that will pull down all the package information
-for packages in the lodcloud group on CKAN, and write out JSON dataset
-for ProtoVis to stdout. Typically you'll want to:
-
-    ./ckan.py > lod.js
-
-You should see information written to ckan.log about how the download
-is proceeding.
+Generate lod.js Protovis data file.
 """
 
+import os
 import sys
 import json
 import urllib
 import logging
+import traceback
+
+from datetime import datetime
 
 
 LOG_FILE = "ckan.log"
@@ -22,13 +19,26 @@ LOG_LEVEL = logging.INFO
 
 
 def main(argv):
-    logging.basicConfig(filename=LOG_FILE, level=LOG_LEVEL)
-    packages = lod_packages()
-    protovis = protovis_json(packages)
-    print "var lod = " + json.dumps(protovis, indent=2)
+    """talk to ckan rest api and generate lod.js
+    """
+    configure_logging()
+    log = logging.getLogger()
+    log.info("starting to load data from ckan")
+
+    try:
+        packages = lod_packages()
+        javascript = protovis_javascript(packages)
+        write_javascript(javascript)
+    except BaseException, e:
+        traceback.print_exc()
+        log.fatal("exiting after unexpected error: %s" % e)
+
+    log.info("finished ckan load")
 
 
 def lod_packages():
+    """returns a list of package metadata from ckan
+    """
     log = logging.getLogger()
     packages = []
     count = 0
@@ -41,13 +51,34 @@ def lod_packages():
     return packages
 
 
-def protovis_json(packages):
+def ckan(path):
+    """gets a JSON resource via the CKAN API
+    """
+    j = urllib.urlopen('http://ckan.net/api/rest/' + path).read()
+    return json.loads(j)
+
+
+def protovis_javascript(packages):
+    """generates protovis javascript data file
+    """
     protovis = {'nodes': get_nodes(packages), 
                 'links': get_links(packages)}
-    return protovis
+    javascript = "var lod = " + json.dumps(protovis, indent=2)
+    return javascript
+
+
+def write_javascript(javascript):
+    """safely writes protovis javascript to lod.js
+    """
+    timestamp = datetime.strftime(datetime.now(), "%Y%m%dT%H%M%S")
+    tmp_file = "lod.js-%s" % timestamp
+    open(tmp_file, "w").write(javascript)
+    os.rename(tmp_file, "lod.js")
 
 
 def get_nodes(packages):
+    """constructs a list of nodes suitable for protovis
+    """
     nodes = []
     for package in packages:
         if package['ratings_average'] == None:
@@ -73,6 +104,8 @@ def get_nodes(packages):
 
 
 def get_links(packages):
+    """returns links between the nodes suitable for protovis
+    """
     log = logging.getLogger()
 
     # first get a dictionary lookup for all the packages by name
@@ -101,16 +134,10 @@ def get_links(packages):
     return links
 
 
-def ckan(path):
-    j = urllib.urlopen('http://ckan.net/api/rest/' + path).read()
-    return json.loads(j)
-
-
 def configure_logging():
-    logging.basicConfig()
     logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
-    handler = logging.FileHandler(log_file)
+    logger.setLevel(LOG_LEVEL)
+    handler = logging.FileHandler(LOG_FILE)
     formatter = logging.Formatter("""[%(asctime)s %(levelname)s %(name)s] %(message)s""")
     handler.setFormatter(formatter)
     logger.addHandler(handler)
