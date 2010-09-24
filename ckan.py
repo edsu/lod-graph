@@ -3,7 +3,12 @@
 """
 This is a little script that will pull down all the package information
 for packages in the lodcloud group on CKAN, and write out JSON dataset
-for ProtoVis.
+for ProtoVis to stdout. Typically you'll want to:
+
+    ./ckan.py > lod.js
+
+You should see information written to ckan.log about how the download
+is proceeding.
 """
 
 import sys
@@ -55,7 +60,9 @@ def get_nodes(packages):
             triples = 1000
         nodes.append({
             'rating': rating,
-            'nodeName': package['title'],
+            'nodeName': package['name'],
+            'nodeTitle': package['title'],
+            'ckanUrl': 'http://ckan.net/package/%s' % package['name'],
             'triples': triples})
     return nodes
 

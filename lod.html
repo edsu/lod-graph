@@ -64,9 +64,13 @@ force.node.add(pv.Dot)
     .fillStyle(function(d) nodeColor(d))
     .strokeStyle(function() this.fillStyle().darker())
     .lineWidth(1)
-    .title(function(d) d.nodeName)
+    .title(function(d) d.nodeTitle)
     .event("mousedown", pv.Behavior.drag())
-    .event("drag", force);
+    .event("drag", force)
+    .event("click", function(d) window.open(d.ckanUrl));
+
+force.label.add(pv.Label)
+    .visible(function(d) d.triples > 10000000);
 
 vis.render();
 

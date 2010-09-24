@@ -2,1078 +2,1508 @@ var lod = {
   "nodes": [
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/2000-us-census-rdf", 
       "triples": 1002848918, 
-      "nodeName": "2000 U.S. Census"
+      "nodeName": "2000-us-census-rdf", 
+      "nodeTitle": "2000 U.S. Census"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bbc-music", 
       "triples": 20000000, 
-      "nodeName": "BBC Music"
+      "nodeName": "bbc-music", 
+      "nodeTitle": "BBC Music"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bbc-programmes", 
       "triples": 60000000, 
-      "nodeName": "BBC Programmes"
+      "nodeName": "bbc-programmes", 
+      "nodeTitle": "BBC Programmes"
     }, 
     {
       "rating": 2, 
+      "ckanUrl": "http://ckan.net/package/bbc-wildlife-finder", 
       "triples": 23861, 
-      "nodeName": "BBC Wildlife Finder"
+      "nodeName": "bbc-wildlife-finder", 
+      "nodeTitle": "BBC Wildlife Finder"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/bibbase", 
       "triples": 200000, 
-      "nodeName": "BibBase"
+      "nodeName": "bibbase", 
+      "nodeTitle": "BibBase"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-affymetrix", 
       "triples": 45560115, 
-      "nodeName": "Affymetrix"
+      "nodeName": "bio2rdf-affymetrix", 
+      "nodeTitle": "Affymetrix"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-cas", 
       "triples": 1000000, 
-      "nodeName": "CAS"
+      "nodeName": "bio2rdf-cas", 
+      "nodeTitle": "CAS"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-chebi", 
       "triples": 7376253, 
-      "nodeName": "ChEBI"
+      "nodeName": "bio2rdf-chebi", 
+      "nodeTitle": "ChEBI"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-genbank", 
       "triples": 1000000, 
-      "nodeName": "GenBank"
+      "nodeName": "bio2rdf-genbank", 
+      "nodeTitle": "GenBank"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-geneid", 
       "triples": 173132553, 
-      "nodeName": "GeneID"
+      "nodeName": "bio2rdf-geneid", 
+      "nodeTitle": "GeneID"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-go", 
       "triples": 8188649, 
-      "nodeName": "Gene Ontology"
+      "nodeName": "bio2rdf-go", 
+      "nodeTitle": "Gene Ontology"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-hgnc", 
       "triples": 1208801, 
-      "nodeName": "HGNC"
+      "nodeName": "bio2rdf-hgnc", 
+      "nodeTitle": "HGNC"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-homologene", 
       "triples": 6598206, 
-      "nodeName": "HomoloGene"
+      "nodeName": "bio2rdf-homologene", 
+      "nodeTitle": "HomoloGene"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-interpro", 
       "triples": 534077, 
-      "nodeName": "InterPro"
+      "nodeName": "bio2rdf-interpro", 
+      "nodeTitle": "InterPro"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-kegg-compound", 
       "triples": 177199, 
-      "nodeName": "KEGG Compound"
+      "nodeName": "bio2rdf-kegg-compound", 
+      "nodeTitle": "KEGG Compound"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-kegg-drug", 
       "triples": 116822, 
-      "nodeName": "KEGG Drug"
+      "nodeName": "bio2rdf-kegg-drug", 
+      "nodeTitle": "KEGG Drug"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-kegg-enzyme", 
       "triples": 685838, 
-      "nodeName": "KEGG Enzyme"
+      "nodeName": "bio2rdf-kegg-enzyme", 
+      "nodeTitle": "KEGG Enzyme"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-kegg-glycan", 
       "triples": 94148, 
-      "nodeName": "KEGG Glycan"
+      "nodeName": "bio2rdf-kegg-glycan", 
+      "nodeTitle": "KEGG Glycan"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-kegg-pathway", 
       "triples": 50811634, 
-      "nodeName": "KEGG Pathway"
+      "nodeName": "bio2rdf-kegg-pathway", 
+      "nodeTitle": "KEGG Pathway"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-kegg-reaction", 
       "triples": 110971, 
-      "nodeName": "KEGG Reaction"
+      "nodeName": "bio2rdf-kegg-reaction", 
+      "nodeTitle": "KEGG Reaction"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-mgi", 
       "triples": 2172452, 
-      "nodeName": "Mouse Genome Database (MGD) from Mouse Genome Informatics (MGI)"
+      "nodeName": "bio2rdf-mgi", 
+      "nodeTitle": "Mouse Genome Database (MGD) from Mouse Genome Informatics (MGI)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-obo", 
       "triples": 4507016, 
-      "nodeName": "OBO"
+      "nodeName": "bio2rdf-obo", 
+      "nodeTitle": "OBO"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-omim", 
       "triples": 1031034, 
-      "nodeName": "OMIM"
+      "nodeName": "bio2rdf-omim", 
+      "nodeTitle": "OMIM"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-pdb", 
       "triples": 1215254, 
-      "nodeName": "PDB"
+      "nodeName": "bio2rdf-pdb", 
+      "nodeTitle": "PDB"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-pfam", 
       "triples": 534077, 
-      "nodeName": "Pfam"
+      "nodeName": "bio2rdf-pfam", 
+      "nodeTitle": "Pfam"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-prodom", 
       "triples": 534077, 
-      "nodeName": "ProDom"
+      "nodeName": "bio2rdf-prodom", 
+      "nodeTitle": "ProDom"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-prosite", 
       "triples": 534077, 
-      "nodeName": "PROSITE"
+      "nodeName": "bio2rdf-prosite", 
+      "nodeTitle": "PROSITE"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-pubchem", 
       "triples": 775963, 
-      "nodeName": "PubChem"
+      "nodeName": "bio2rdf-pubchem", 
+      "nodeTitle": "PubChem"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-pubmed", 
       "triples": 797000000, 
-      "nodeName": "PubMed"
+      "nodeName": "bio2rdf-pubmed", 
+      "nodeTitle": "PubMed"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-reactome", 
       "triples": 50880741, 
-      "nodeName": "Reactome"
+      "nodeName": "bio2rdf-reactome", 
+      "nodeTitle": "Reactome"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-sgd", 
       "triples": 1437648, 
-      "nodeName": "Saccharomyces Genome Database"
+      "nodeName": "bio2rdf-sgd", 
+      "nodeTitle": "Saccharomyces Genome Database"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-uniprot", 
       "triples": 228625909, 
-      "nodeName": "UniProtKB"
+      "nodeName": "bio2rdf-uniprot", 
+      "nodeTitle": "UniProtKB"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-uniprot-taxonomy", 
       "triples": 3230933, 
-      "nodeName": "UniProtKB Taxonomy"
+      "nodeName": "bio2rdf-uniprot-taxonomy", 
+      "nodeTitle": "UniProtKB Taxonomy"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-uniprot-uniparc", 
       "triples": 632994172, 
-      "nodeName": "UniParc"
+      "nodeName": "bio2rdf-uniprot-uniparc", 
+      "nodeTitle": "UniParc"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-uniprot-unipathway", 
       "triples": 8508, 
-      "nodeName": "UniProt UniPathway"
+      "nodeName": "bio2rdf-uniprot-unipathway", 
+      "nodeTitle": "UniProt UniPathway"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-uniprot-uniref", 
       "triples": 486342579, 
-      "nodeName": "UniProt UniRef"
+      "nodeName": "bio2rdf-uniprot-uniref", 
+      "nodeTitle": "UniProt UniRef"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/bio2rdf-unists", 
       "triples": 6487534, 
-      "nodeName": "UniSTS"
+      "nodeName": "bio2rdf-unists", 
+      "nodeTitle": "UniSTS"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/business-data-gov-uk", 
       "triples": 8606, 
-      "nodeName": "business.data.gov.uk"
+      "nodeName": "business-data-gov-uk", 
+      "nodeTitle": "business.data.gov.uk"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/chem2bio2rdf", 
       "triples": 82925998, 
-      "nodeName": "Chem2Bio2RDF"
+      "nodeName": "chem2bio2rdf", 
+      "nodeTitle": "Chem2Bio2RDF"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/chronicling-america", 
       "triples": 20000000, 
-      "nodeName": "Chronicling America API"
+      "nodeName": "chronicling-america", 
+      "nodeTitle": "Chronicling America API"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/cornetto", 
       "triples": 792747, 
-      "nodeName": "Cornetto"
+      "nodeName": "cornetto", 
+      "nodeTitle": "Cornetto"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/data-gov", 
       "triples": 6400000000, 
-      "nodeName": "Data.gov"
+      "nodeName": "data-gov", 
+      "nodeTitle": "Data.gov"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/data-gov-uk-time-intervals", 
       "triples": 1000000000, 
-      "nodeName": "Linked Data for Intervals"
+      "nodeName": "data-gov-uk-time-intervals", 
+      "nodeTitle": "Linked Data for Intervals"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/data-incubator-climb", 
       "triples": 330000, 
-      "nodeName": "Climb Dataincubator"
+      "nodeName": "data-incubator-climb", 
+      "nodeTitle": "Climb Dataincubator"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/data-incubator-discogs", 
       "triples": 129000000, 
-      "nodeName": "Discogs in RDF"
+      "nodeName": "data-incubator-discogs", 
+      "nodeTitle": "Discogs in RDF"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/data-incubator-moseley", 
       "triples": 1268, 
-      "nodeName": "Moseley Folk Festival Data"
+      "nodeName": "data-incubator-moseley", 
+      "nodeTitle": "Moseley Folk Festival Data"
     }, 
     {
       "rating": 1, 
+      "ckanUrl": "http://ckan.net/package/data-incubator-musicbrainz", 
       "triples": 178775789, 
-      "nodeName": "Data Incubator: MusicBrainz"
+      "nodeName": "data-incubator-musicbrainz", 
+      "nodeTitle": "Data Incubator: MusicBrainz"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/data-incubator-nasa", 
       "triples": 97974, 
-      "nodeName": "NASA Space Flight & Astronaut data in RDF"
+      "nodeName": "data-incubator-nasa", 
+      "nodeTitle": "NASA Space Flight & Astronaut data in RDF"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/data-incubator-our-airports", 
       "triples": 748363, 
-      "nodeName": "Airport data from Our Airports published as RDF"
+      "nodeName": "data-incubator-our-airports", 
+      "nodeTitle": "Airport data from Our Airports published as RDF"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/data-incubator-pokedex", 
       "triples": 26134, 
-      "nodeName": "Pokedex data in RDF"
+      "nodeName": "data-incubator-pokedex", 
+      "nodeTitle": "Pokedex data in RDF"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/dbpedia", 
       "triples": 1000000000, 
-      "nodeName": "DBpedia"
+      "nodeName": "dbpedia", 
+      "nodeTitle": "DBpedia"
     }, 
     {
       "rating": 1, 
+      "ckanUrl": "http://ckan.net/package/dbpedia-lite", 
       "triples": 30000000, 
-      "nodeName": "dbpedia lite"
+      "nodeName": "dbpedia-lite", 
+      "nodeTitle": "dbpedia lite"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/dbtropes", 
       "triples": 7600000, 
-      "nodeName": "DBTropes"
+      "nodeName": "dbtropes", 
+      "nodeTitle": "DBTropes"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/dbtune-artists-last-fm", 
       "triples": 250000000, 
-      "nodeName": "DBTune Artists: Last.fm"
+      "nodeName": "dbtune-artists-last-fm", 
+      "nodeTitle": "DBTune Artists: Last.fm"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/dbtune-audioscrobbler", 
       "triples": 600000000, 
-      "nodeName": "DBTune.org AudioScrobbler RDF Service"
+      "nodeName": "dbtune-audioscrobbler", 
+      "nodeTitle": "DBTune.org AudioScrobbler RDF Service"
     }, 
     {
       "rating": 1, 
+      "ckanUrl": "http://ckan.net/package/dbtune-classical", 
       "triples": 390845, 
-      "nodeName": "DBTune.org/classical"
+      "nodeName": "dbtune-classical", 
+      "nodeTitle": "DBTune.org/classical"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/dbtune-john-peel-sessions", 
       "triples": 277000, 
-      "nodeName": "DBTune.org John Peel sessions RDF server"
+      "nodeName": "dbtune-john-peel-sessions", 
+      "nodeTitle": "DBTune.org John Peel sessions RDF server"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/dbtune-magnatune", 
       "triples": 322000, 
-      "nodeName": "DBTune.org Magnatune RDF server"
+      "nodeName": "dbtune-magnatune", 
+      "nodeTitle": "DBTune.org Magnatune RDF server"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/dbtune-musicbrainz", 
       "triples": 36000000, 
-      "nodeName": "DBTune.org Musicbrainz D2R Server"
+      "nodeName": "dbtune-musicbrainz", 
+      "nodeTitle": "DBTune.org Musicbrainz D2R Server"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/dbtune-myspace", 
       "triples": 660000000, 
-      "nodeName": "DBTune.org MySpace RDF Service"
+      "nodeName": "dbtune-myspace", 
+      "nodeTitle": "DBTune.org MySpace RDF Service"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/dcs-sheffield", 
       "triples": 8596, 
-      "nodeName": "data.dcs"
+      "nodeName": "dcs-sheffield", 
+      "nodeTitle": "data.dcs"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/dnb-gemeinsame-normdatei", 
       "triples": 40000000, 
-      "nodeName": "Gemeinsame Normdatei (GND)"
+      "nodeName": "dnb-gemeinsame-normdatei", 
+      "nodeTitle": "Gemeinsame Normdatei (GND)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/ecs", 
       "triples": 50000, 
-      "nodeName": "School of Electronics and Computer Science, University of Southampton"
+      "nodeName": "ecs", 
+      "nodeTitle": "School of Electronics and Computer Science, University of Southampton"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/education-data-gov-uk", 
       "triples": 6619847, 
-      "nodeName": "education.data.gov.uk"
+      "nodeName": "education-data-gov-uk", 
+      "nodeTitle": "education.data.gov.uk"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/enakting-co2emission", 
       "triples": 2316831, 
-      "nodeName": "EnAKTing CO2 Emission Dataset"
+      "nodeName": "enakting-co2emission", 
+      "nodeTitle": "EnAKTing CO2 Emission Dataset"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/enakting-energy", 
       "triples": 2316831, 
-      "nodeName": "EnAKTing Energy Dataset"
+      "nodeName": "enakting-energy", 
+      "nodeTitle": "EnAKTing Energy Dataset"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/enakting-mortality", 
       "triples": 12933, 
-      "nodeName": "EnAKTing Mortality Dataset"
+      "nodeName": "enakting-mortality", 
+      "nodeTitle": "EnAKTing Mortality Dataset"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/enakting-nhs", 
       "triples": 23828953, 
-      "nodeName": "EnAKTing NHS Dataset"
+      "nodeName": "enakting-nhs", 
+      "nodeTitle": "EnAKTing NHS Dataset"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/enakting-population", 
       "triples": 2316831, 
-      "nodeName": "EnAKTing Population Dataset"
+      "nodeName": "enakting-population", 
+      "nodeTitle": "EnAKTing Population Dataset"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/esd-standards", 
       "triples": 234230, 
-      "nodeName": "ESD Standards: Controlled lists for the UK public sector"
+      "nodeName": "esd-standards", 
+      "nodeTitle": "ESD Standards: Controlled lists for the UK public sector"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/eunis", 
       "triples": 7000000, 
-      "nodeName": "European Nature Information System"
+      "nodeName": "eunis", 
+      "nodeTitle": "European Nature Information System"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/eurostat-ontologycentral", 
       "triples": 40000000, 
-      "nodeName": "Eurostat Mirror (OntologyCentral)"
+      "nodeName": "eurostat-ontologycentral", 
+      "nodeTitle": "Eurostat Mirror (OntologyCentral)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/eurostat-rdf", 
       "triples": 19500, 
-      "nodeName": "Eurostat RDF datasets"
+      "nodeName": "eurostat-rdf", 
+      "nodeTitle": "Eurostat RDF datasets"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/eutc-productions", 
       "triples": 31223, 
-      "nodeName": "Edinburgh University Theatre Company Productions"
+      "nodeName": "eutc-productions", 
+      "nodeTitle": "Edinburgh University Theatre Company Productions"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/event-media", 
       "triples": 20000000, 
-      "nodeName": "Events and Media descriptions"
+      "nodeName": "event-media", 
+      "nodeTitle": "Events and Media descriptions"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fanhubz", 
       "triples": 3779420, 
-      "nodeName": "FanHubz"
+      "nodeName": "fanhubz", 
+      "nodeTitle": "FanHubz"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/farmbio-chembl", 
       "triples": 25111179, 
-      "nodeName": "ChEMBL"
+      "nodeName": "farmbio-chembl", 
+      "nodeTitle": "ChEMBL"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fishes-of-texas", 
       "triples": 528897, 
-      "nodeName": "Fishes of Texas"
+      "nodeName": "fishes-of-texas", 
+      "nodeTitle": "Fishes of Texas"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/flickr-wrappr", 
       "triples": 56100000, 
-      "nodeName": "flickr\u2122 wrappr"
+      "nodeName": "flickr-wrappr", 
+      "nodeTitle": "flickr\u2122 wrappr"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/freebase", 
       "triples": 295397671, 
-      "nodeName": "Freebase"
+      "nodeName": "freebase", 
+      "nodeTitle": "Freebase"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fu-berlin-dailymed", 
       "triples": 164276, 
-      "nodeName": "DailyMed"
+      "nodeName": "fu-berlin-dailymed", 
+      "nodeTitle": "DailyMed"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/fu-berlin-dblp", 
       "triples": 28000000, 
-      "nodeName": "DBLP Bibliography Database in RDF (FU Berlin)"
+      "nodeName": "fu-berlin-dblp", 
+      "nodeTitle": "DBLP Bibliography Database in RDF (FU Berlin)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fu-berlin-diseasome", 
       "triples": 91182, 
-      "nodeName": "Diseasome"
+      "nodeName": "fu-berlin-diseasome", 
+      "nodeTitle": "Diseasome"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fu-berlin-drugbank", 
       "triples": 765936, 
-      "nodeName": "DrugBank"
+      "nodeName": "fu-berlin-drugbank", 
+      "nodeTitle": "DrugBank"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fu-berlin-eurostat", 
       "triples": 8850, 
-      "nodeName": "Eurostat in RDF (FU Berlin)"
+      "nodeName": "fu-berlin-eurostat", 
+      "nodeTitle": "Eurostat in RDF (FU Berlin)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fu-berlin-medicare", 
       "triples": 44500, 
-      "nodeName": "MediCare"
+      "nodeName": "fu-berlin-medicare", 
+      "nodeTitle": "MediCare"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fu-berlin-project-gutenberg", 
       "triples": 10000, 
-      "nodeName": "Project Gutenberg in RDF (FU Berlin)"
+      "nodeName": "fu-berlin-project-gutenberg", 
+      "nodeTitle": "Project Gutenberg in RDF (FU Berlin)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fu-berlin-sider", 
       "triples": 192515, 
-      "nodeName": "SIDER: Side Effect Resource"
+      "nodeName": "fu-berlin-sider", 
+      "nodeTitle": "SIDER: Side Effect Resource"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/fu-berlin-stitch", 
       "triples": 55099700, 
-      "nodeName": "STITCH: Chemical-Protein Interactions"
+      "nodeName": "fu-berlin-stitch", 
+      "nodeTitle": "STITCH: Chemical-Protein Interactions"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/gemeenschappelijke-thesaurus-audiovisuele-archieven", 
       "triples": 90000, 
-      "nodeName": "Gemeenschappelijke Thesaurus Audiovisuele Archieven \u2013 Common Thesaurus Audiovisual Archives"
+      "nodeName": "gemeenschappelijke-thesaurus-audiovisuele-archieven", 
+      "nodeTitle": "Gemeenschappelijke Thesaurus Audiovisuele Archieven \u2013 Common Thesaurus Audiovisual Archives"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/geolinkeddata", 
       "triples": 21463088, 
-      "nodeName": "GeoLinkedData (.es)"
+      "nodeName": "geolinkeddata", 
+      "nodeTitle": "GeoLinkedData (.es)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/geonames-semantic-web", 
       "triples": 93896732, 
-      "nodeName": "GeoNames Semantic Web "
+      "nodeName": "geonames-semantic-web", 
+      "nodeTitle": "GeoNames Semantic Web "
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/geospecies", 
       "triples": 2774220, 
-      "nodeName": "GeoSpecies Knowledge Base"
+      "nodeName": "geospecies", 
+      "nodeTitle": "GeoSpecies Knowledge Base"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/gesis-thesoz", 
       "triples": 181558, 
-      "nodeName": "TheSoz Thesaurus for the Social Sciences (GESIS)"
+      "nodeName": "gesis-thesoz", 
+      "nodeTitle": "TheSoz Thesaurus for the Social Sciences (GESIS)"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/govtrack", 
       "triples": 13000000, 
-      "nodeName": "GovTrack.us U.S Congress Legislative Data"
+      "nodeName": "govtrack", 
+      "nodeTitle": "GovTrack.us U.S Congress Legislative Data"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/hungarian-national-library-catalog", 
       "triples": 17500000, 
-      "nodeName": "Hungarian National Library (NSZL) catalog"
+      "nodeName": "hungarian-national-library-catalog", 
+      "nodeTitle": "Hungarian National Library (NSZL) catalog"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/iserve", 
       "triples": 31799, 
-      "nodeName": "iServe: Linked Services Registry"
+      "nodeName": "iserve", 
+      "nodeTitle": "iServe: Linked Services Registry"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/jamendo-dbtune", 
       "triples": 1100000, 
-      "nodeName": "DBTune.org Jamendo RDF Server"
+      "nodeName": "jamendo-dbtune", 
+      "nodeTitle": "DBTune.org Jamendo RDF Server"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/john-goodwins-family-tree", 
       "triples": 177867, 
-      "nodeName": "John Goodwin's Family Tree"
+      "nodeName": "john-goodwins-family-tree", 
+      "nodeTitle": "John Goodwin's Family Tree"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/knoesis-linked-sensor-data", 
       "triples": 1730284735, 
-      "nodeName": "Linked Sensor Data (Kno.e.sis)"
+      "nodeName": "knoesis-linked-sensor-data", 
+      "nodeTitle": "Linked Sensor Data (Kno.e.sis)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/l3s-dblp", 
       "triples": 57674239, 
-      "nodeName": "DBLP in RDF (L3S)"
+      "nodeName": "l3s-dblp", 
+      "nodeTitle": "DBLP in RDF (L3S)"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/lcsh", 
       "triples": 4151586, 
-      "nodeName": "Library of Congress Subject Headings"
+      "nodeName": "lcsh", 
+      "nodeTitle": "Library of Congress Subject Headings"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/lexvo", 
       "triples": 353815, 
-      "nodeName": "Lexvo"
+      "nodeName": "lexvo", 
+      "nodeTitle": "Lexvo"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/libris", 
       "triples": 5000000, 
-      "nodeName": "LIBRIS"
+      "nodeName": "libris", 
+      "nodeTitle": "LIBRIS"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/lingvoj", 
       "triples": 22442, 
-      "nodeName": "Languages of the World (Multilingual RDF Descriptions)"
+      "nodeName": "lingvoj", 
+      "nodeTitle": "Languages of the World (Multilingual RDF Descriptions)"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/linkedct", 
       "triples": 7035974, 
-      "nodeName": "LinkedCT"
+      "nodeName": "linkedct", 
+      "nodeTitle": "LinkedCT"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/linkedgeodata", 
       "triples": 3000000000, 
-      "nodeName": "LinkedGeoData"
+      "nodeName": "linkedgeodata", 
+      "nodeTitle": "LinkedGeoData"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/linkedlccn", 
       "triples": 1573663, 
-      "nodeName": "LinkedLCCN"
+      "nodeName": "linkedlccn", 
+      "nodeTitle": "LinkedLCCN"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/linkedmdb", 
       "triples": 6148121, 
-      "nodeName": "Linked Movie DataBase"
+      "nodeName": "linkedmdb", 
+      "nodeTitle": "Linked Movie DataBase"
     }, 
     {
       "rating": 1, 
+      "ckanUrl": "http://ckan.net/package/linked-open-numbers", 
       "triples": 14000000, 
-      "nodeName": "Linked Open Numbers"
+      "nodeName": "linked-open-numbers", 
+      "nodeTitle": "Linked Open Numbers"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/lobid-organisations", 
       "triples": 587936, 
-      "nodeName": "lobid. Index of libraries and related organisations"
+      "nodeName": "lobid-organisations", 
+      "nodeTitle": "lobid. Index of libraries and related organisations"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/lobid-resources", 
       "triples": 82400000, 
-      "nodeName": "lobid. Bibliographic Resources"
+      "nodeName": "lobid-resources", 
+      "nodeTitle": "lobid. Bibliographic Resources"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/loius", 
       "triples": 586000000, 
-      "nodeName": "Linking Italian University Statistics Project"
+      "nodeName": "loius", 
+      "nodeTitle": "Linking Italian University Statistics Project"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/london-gazette", 
       "triples": 12000000, 
-      "nodeName": "The London Gazette - Gazettes Data"
+      "nodeName": "london-gazette", 
+      "nodeTitle": "The London Gazette - Gazettes Data"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/lotico", 
       "triples": 224498, 
-      "nodeName": "Lotico"
+      "nodeName": "lotico", 
+      "nodeTitle": "Lotico"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/manchester-university-reading-lists", 
       "triples": 2383794, 
-      "nodeName": "Manchester University Reading Lists"
+      "nodeName": "manchester-university-reading-lists", 
+      "nodeTitle": "Manchester University Reading Lists"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/marc-codes", 
       "triples": 8816, 
-      "nodeName": "MARC Codes List"
+      "nodeName": "marc-codes", 
+      "nodeTitle": "MARC Codes List"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/national-diet-library-subject-headings", 
       "triples": 1294669, 
-      "nodeName": "National Diet Library of Japan subject headings"
+      "nodeName": "national-diet-library-subject-headings", 
+      "nodeTitle": "National Diet Library of Japan subject headings"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/nottingham-trent-university-resource-lists", 
       "triples": 726933, 
-      "nodeName": "Nottingham Trent University Resource Lists"
+      "nodeName": "nottingham-trent-university-resource-lists", 
+      "nodeTitle": "Nottingham Trent University Resource Lists"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/nytimes-linked-open-data", 
       "triples": 345889, 
-      "nodeName": "New York Times - Linked Open Data"
+      "nodeName": "nytimes-linked-open-data", 
+      "nodeTitle": "New York Times - Linked Open Data"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/opencalais", 
       "triples": 4500000, 
-      "nodeName": "OpenCalais"
+      "nodeName": "opencalais", 
+      "nodeTitle": "OpenCalais"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/opencyc", 
       "triples": 1600000, 
-      "nodeName": "OpenCyc"
+      "nodeName": "opencyc", 
+      "nodeTitle": "OpenCyc"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/open-energy-info-wiki", 
       "triples": 3898742, 
-      "nodeName": "OpenEI.org"
+      "nodeName": "open-energy-info-wiki", 
+      "nodeTitle": "OpenEI.org"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/openlibrary", 
       "triples": 400000000, 
-      "nodeName": "The Open Library"
+      "nodeName": "openlibrary", 
+      "nodeTitle": "The Open Library"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/openlylocal", 
       "triples": 10000000, 
-      "nodeName": "Openly Local :: Making Local Government More Transparent"
+      "nodeName": "openlylocal", 
+      "nodeTitle": "Openly Local :: Making Local Government More Transparent"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/ordnance-survey-linked-data", 
       "triples": 2788872, 
-      "nodeName": "Ordnance Survey Linked Data"
+      "nodeName": "ordnance-survey-linked-data", 
+      "nodeTitle": "Ordnance Survey Linked Data"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/patents-data-gov-uk", 
       "triples": 11627, 
-      "nodeName": "patents.data.gov.uk"
+      "nodeName": "patents-data-gov-uk", 
+      "nodeTitle": "patents.data.gov.uk"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/pokepedia-fr", 
       "triples": 115150, 
-      "nodeName": "Pok\u00e9p\u00e9dia"
+      "nodeName": "pokepedia-fr", 
+      "nodeTitle": "Pok\u00e9p\u00e9dia"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/printed-book-auction-catalogues", 
       "triples": 55214, 
-      "nodeName": "English Language Books listed in Printed Book Auction Catalogues from 17th Century Holland"
+      "nodeName": "printed-book-auction-catalogues", 
+      "nodeTitle": "English Language Books listed in Printed Book Auction Catalogues from 17th Century Holland"
     }, 
     {
       "rating": 1, 
+      "ckanUrl": "http://ckan.net/package/productdb", 
       "triples": 575942, 
-      "nodeName": "ProductDB"
+      "nodeName": "productdb", 
+      "nodeTitle": "ProductDB"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/psh-subject-headings", 
       "triples": 100000, 
-      "nodeName": "Polythematic Structured Subject Heading System"
+      "nodeName": "psh-subject-headings", 
+      "nodeTitle": "Polythematic Structured Subject Heading System"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/rdf-book-mashup", 
       "triples": 100000000, 
-      "nodeName": "RDF Book Mashup"
+      "nodeName": "rdf-book-mashup", 
+      "nodeTitle": "RDF Book Mashup"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rdfize-lastfm", 
       "triples": 400000000, 
-      "nodeName": "Last.FM RDFization of Events, Artists, and Users"
+      "nodeName": "rdfize-lastfm", 
+      "nodeTitle": "Last.FM RDFization of Events, Artists, and Users"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rdfohloh", 
       "triples": 700000, 
-      "nodeName": "RDFohloh"
+      "nodeName": "rdfohloh", 
+      "nodeTitle": "RDFohloh"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rechtspraak", 
       "triples": 1931860, 
-      "nodeName": "Rechtspraak.nl"
+      "nodeName": "rechtspraak", 
+      "nodeTitle": "Rechtspraak.nl"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/reference-data-gov-uk", 
       "triples": 40000, 
-      "nodeName": "reference.data.gov.uk"
+      "nodeName": "reference-data-gov-uk", 
+      "nodeTitle": "reference.data.gov.uk"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/research-data-gov-uk", 
       "triples": 43102, 
-      "nodeName": "research.data.gov.uk"
+      "nodeName": "research-data-gov-uk", 
+      "nodeTitle": "research.data.gov.uk"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/revyu", 
       "triples": 20000, 
-      "nodeName": "Revyu.com - Review Anything"
+      "nodeName": "revyu", 
+      "nodeTitle": "Revyu.com - Review Anything"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/riese", 
       "triples": 5000000, 
-      "nodeName": "RDFizing and Interlinking the EuroStat Data Set Effort"
+      "nodeName": "riese", 
+      "nodeTitle": "RDFizing and Interlinking the EuroStat Data Set Effort"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-acm", 
       "triples": 12402336, 
-      "nodeName": "Association for Computing Machinery (ACM) (RKBExplorer)"
+      "nodeName": "rkb-explorer-acm", 
+      "nodeTitle": "Association for Computing Machinery (ACM) (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-budapest", 
       "triples": 42378, 
-      "nodeName": "Budapest University of Technology and Economics (RKBExplorer)"
+      "nodeName": "rkb-explorer-budapest", 
+      "nodeTitle": "Budapest University of Technology and Economics (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-citeseer", 
       "triples": 8146852, 
-      "nodeName": "CiteSeer (Research Index) (RKBExplorer)"
+      "nodeName": "rkb-explorer-citeseer", 
+      "nodeTitle": "CiteSeer (Research Index) (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-cordis", 
       "triples": 3519823, 
-      "nodeName": "Community R&D Information Service (CORDIS) (RKBExplorer)"
+      "nodeName": "rkb-explorer-cordis", 
+      "nodeTitle": "Community R&D Information Service (CORDIS) (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-courseware", 
       "triples": 45780, 
-      "nodeName": "Resilient Computing Courseware (RKBExplorer)"
+      "nodeName": "rkb-explorer-courseware", 
+      "nodeTitle": "Resilient Computing Courseware (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-curriculum", 
       "triples": 37789, 
-      "nodeName": "ReSIST MSc in Resilient Computing Curriculum (RKBExplorer)"
+      "nodeName": "rkb-explorer-curriculum", 
+      "nodeTitle": "ReSIST MSc in Resilient Computing Curriculum (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-darmstadt", 
       "triples": 35325, 
-      "nodeName": "Technische Universit\u00e4t Darmstadt (RKBExplorer)"
+      "nodeName": "rkb-explorer-darmstadt", 
+      "nodeTitle": "Technische Universit\u00e4t Darmstadt (RKBExplorer)"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-dblp", 
       "triples": 24112294, 
-      "nodeName": "DBLP Computer Science Bibliography (RKBExplorer)"
+      "nodeName": "rkb-explorer-dblp", 
+      "nodeTitle": "DBLP Computer Science Bibliography (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-deepblue", 
       "triples": 39421, 
-      "nodeName": "Deep Blue (RKBExplorer)"
+      "nodeName": "rkb-explorer-deepblue", 
+      "nodeTitle": "Deep Blue (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-deploy", 
       "triples": 41071, 
-      "nodeName": "DEPLOY (RKBExplorer)"
+      "nodeName": "rkb-explorer-deploy", 
+      "nodeTitle": "DEPLOY (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-dotac", 
       "triples": 21279220, 
-      "nodeName": "dotAC (RKBExplorer)"
+      "nodeName": "rkb-explorer-dotac", 
+      "nodeTitle": "dotAC (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-eprints", 
       "triples": 8417840, 
-      "nodeName": "ePrints3 Institutional Archive Collection (RKBExplorer)"
+      "nodeName": "rkb-explorer-eprints", 
+      "nodeTitle": "ePrints3 Institutional Archive Collection (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-era", 
       "triples": 157376, 
-      "nodeName": "ERA - Australian Research Council publication ratings (RKBExplorer)"
+      "nodeName": "rkb-explorer-era", 
+      "nodeTitle": "ERA - Australian Research Council publication ratings (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-eurecom", 
       "triples": 40863, 
-      "nodeName": "Institut Eur\u00e9com (RKBExplorer)"
+      "nodeName": "rkb-explorer-eurecom", 
+      "nodeTitle": "Institut Eur\u00e9com (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-ft", 
       "triples": 39843, 
-      "nodeName": "France Telecom Recherche et D\u00e9veloppement (RKBExplorer)"
+      "nodeName": "rkb-explorer-ft", 
+      "nodeTitle": "France Telecom Recherche et D\u00e9veloppement (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-ibm", 
       "triples": 44721, 
-      "nodeName": "IBM Research GmbH (RKBExplorer)"
+      "nodeName": "rkb-explorer-ibm", 
+      "nodeTitle": "IBM Research GmbH (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-ieee", 
       "triples": 91564, 
-      "nodeName": "IEEE Papers (RKBExplorer)"
+      "nodeName": "rkb-explorer-ieee", 
+      "nodeTitle": "IEEE Papers (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-irit", 
       "triples": 176542, 
-      "nodeName": "Universit\u00e9 Paul Sabatier - Toulouse 3 (RKB Explorer)"
+      "nodeName": "rkb-explorer-irit", 
+      "nodeTitle": "Universit\u00e9 Paul Sabatier - Toulouse 3 (RKB Explorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-jisc", 
       "triples": 64672, 
-      "nodeName": "UK JISC (RKBExplorer)"
+      "nodeName": "rkb-explorer-jisc", 
+      "nodeTitle": "UK JISC (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-kisti", 
       "triples": 12815726, 
-      "nodeName": "Korean Institute of Science Technology and Information (RKBExplorer)"
+      "nodeName": "rkb-explorer-kisti", 
+      "nodeTitle": "Korean Institute of Science Technology and Information (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-laas", 
       "triples": 52312, 
-      "nodeName": "LAAS-CNRS (RKBExplorer)"
+      "nodeName": "rkb-explorer-laas", 
+      "nodeTitle": "LAAS-CNRS (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-newcastle", 
       "triples": 87505, 
-      "nodeName": "University of Newcastle upon Tyne (RKBExplorer)"
+      "nodeName": "rkb-explorer-newcastle", 
+      "nodeTitle": "University of Newcastle upon Tyne (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-nsf", 
       "triples": 11822283, 
-      "nodeName": "National Science Foundation (RKBExplorer)"
+      "nodeName": "rkb-explorer-nsf", 
+      "nodeTitle": "National Science Foundation (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-oai", 
       "triples": 24206591, 
-      "nodeName": "Open Archive Initiative Harvest over OAI-PMH (RKBExplorer)"
+      "nodeName": "rkb-explorer-oai", 
+      "nodeTitle": "Open Archive Initiative Harvest over OAI-PMH (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-os", 
       "triples": 161227, 
-      "nodeName": "Ordnance Survey (RKBExplorer)"
+      "nodeName": "rkb-explorer-os", 
+      "nodeTitle": "Ordnance Survey (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-pisa", 
       "triples": 43219, 
-      "nodeName": "Universit\u00e0 di Pisa (RKBExplorer)"
+      "nodeName": "rkb-explorer-pisa", 
+      "nodeTitle": "Universit\u00e0 di Pisa (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-rae2001", 
       "triples": 2718105, 
-      "nodeName": "Research Assessment Exercise 2001 (RKBExplorer)"
+      "nodeName": "rkb-explorer-rae2001", 
+      "nodeTitle": "Research Assessment Exercise 2001 (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-resex", 
       "triples": 55582, 
-      "nodeName": "ReSIST Resilience Mechanisms (RKBExplorer.com)"
+      "nodeName": "rkb-explorer-resex", 
+      "nodeTitle": "ReSIST Resilience Mechanisms (RKBExplorer.com)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-risks", 
       "triples": 322913, 
-      "nodeName": "RISKS Digest (RKBExplorer)"
+      "nodeName": "rkb-explorer-risks", 
+      "nodeTitle": "RISKS Digest (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-roma", 
       "triples": 41313, 
-      "nodeName": "Universit\u00e0 degli studi di Roma \"La Sapienza\" (RKBExplorer)"
+      "nodeName": "rkb-explorer-roma", 
+      "nodeTitle": "Universit\u00e0 degli studi di Roma \"La Sapienza\" (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-southampton", 
       "triples": 298067, 
-      "nodeName": "School of Electronics and Computer Science, University of Southampton (RKBExplorer)"
+      "nodeName": "rkb-explorer-southampton", 
+      "nodeTitle": "School of Electronics and Computer Science, University of Southampton (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-ulm", 
       "triples": 40044, 
-      "nodeName": "Universit\u00e4t Ulm (RKBExplorer)"
+      "nodeName": "rkb-explorer-ulm", 
+      "nodeTitle": "Universit\u00e4t Ulm (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-unlocode", 
       "triples": 371549, 
-      "nodeName": "UN/LOCODE (RKBExplorer)"
+      "nodeName": "rkb-explorer-unlocode", 
+      "nodeTitle": "UN/LOCODE (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-wiki", 
       "triples": 44379, 
-      "nodeName": "ReSIST Project Wiki (RKBExplorer)"
+      "nodeName": "rkb-explorer-wiki", 
+      "nodeTitle": "ReSIST Project Wiki (RKBExplorer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/rkb-explorer-wordnet", 
       "triples": 2727001, 
-      "nodeName": "WordNet (RKBExplorer)"
+      "nodeName": "rkb-explorer-wordnet", 
+      "nodeTitle": "WordNet (RKBExplorer)"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/sec-rdfabout", 
       "triples": 1800000, 
-      "nodeName": "U.S. Securities and Exchange Commission Corporate Ownership RDF Data"
+      "nodeName": "sec-rdfabout", 
+      "nodeTitle": "U.S. Securities and Exchange Commission Corporate Ownership RDF Data"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/semantic-web-dog-food", 
       "triples": 191391, 
-      "nodeName": "Semantic Web Dog Food Corpus"
+      "nodeName": "semantic-web-dog-food", 
+      "nodeTitle": "Semantic Web Dog Food Corpus"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/semanticweb-org", 
       "triples": 50000, 
-      "nodeName": "semanticweb.org"
+      "nodeName": "semanticweb-org", 
+      "nodeTitle": "semanticweb.org"
     }, 
     {
       "rating": 1, 
+      "ckanUrl": "http://ckan.net/package/semantic-xbrl", 
       "triples": 9000000, 
-      "nodeName": "Semantic XBRL Financial Data"
+      "nodeName": "semantic-xbrl", 
+      "nodeTitle": "Semantic XBRL Financial Data"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/semsol-crunchbase", 
       "triples": 955676, 
-      "nodeName": "Semantic CrunchBase"
+      "nodeName": "semsol-crunchbase", 
+      "nodeTitle": "Semantic CrunchBase"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/slideshare2rdf", 
       "triples": 1000, 
-      "nodeName": "Slideshare2RDF Server"
+      "nodeName": "slideshare2rdf", 
+      "nodeTitle": "Slideshare2RDF Server"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/southampton-ecs-eprints", 
       "triples": 1000000, 
-      "nodeName": "ECS Southampton EPrints"
+      "nodeName": "southampton-ecs-eprints", 
+      "nodeTitle": "ECS Southampton EPrints"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/st-andrews-resource-lists", 
       "triples": 1223619, 
-      "nodeName": "St. Andrews University Resource Lists"
+      "nodeName": "st-andrews-resource-lists", 
+      "nodeTitle": "St. Andrews University Resource Lists"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/statistics-data-gov-uk", 
       "triples": 343733, 
-      "nodeName": "statistics.data.gov.uk"
+      "nodeName": "statistics-data-gov-uk", 
+      "nodeTitle": "statistics.data.gov.uk"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/stitch-rameau", 
       "triples": 1619918, 
-      "nodeName": "RAMEAU subject headings (STITCH)"
+      "nodeName": "stitch-rameau", 
+      "nodeTitle": "RAMEAU subject headings (STITCH)"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/stw-thesaurus-for-economics", 
       "triples": 107000, 
-      "nodeName": "STW Thesaurus for Economics"
+      "nodeName": "stw-thesaurus-for-economics", 
+      "nodeTitle": "STW Thesaurus for Economics"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/surge-radio", 
       "triples": 218000, 
-      "nodeName": "Surge Radio"
+      "nodeName": "surge-radio", 
+      "nodeTitle": "Surge Radio"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/swetodblp", 
       "triples": 11000000, 
-      "nodeName": "SwetoDblp"
+      "nodeName": "swetodblp", 
+      "nodeTitle": "SwetoDblp"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/t4gm-info", 
       "triples": 103000, 
-      "nodeName": "Thesaurus for Graphic Materials (t4gm.info)"
+      "nodeName": "t4gm-info", 
+      "nodeTitle": "Thesaurus for Graphic Materials (t4gm.info)"
     }, 
     {
       "rating": 4, 
+      "ckanUrl": "http://ckan.net/package/talis-openlibrary", 
       "triples": 541396055, 
-      "nodeName": "Open Library data mirror in the Talis Platform"
+      "nodeName": "talis-openlibrary", 
+      "nodeTitle": "Open Library data mirror in the Talis Platform"
     }, 
     {
       "rating": 2, 
+      "ckanUrl": "http://ckan.net/package/taxonconcept", 
       "triples": 8401826, 
-      "nodeName": "TaxonConcept Knowledge Base"
+      "nodeName": "taxonconcept", 
+      "nodeTitle": "TaxonConcept Knowledge Base"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/tcmgenedit_dataset", 
       "triples": 117643, 
-      "nodeName": "TCMGeneDIT Dataset"
+      "nodeName": "tcmgenedit_dataset", 
+      "nodeTitle": "TCMGeneDIT Dataset"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/telegraphis", 
       "triples": 15257, 
-      "nodeName": "Telegraphis Linked Data"
+      "nodeName": "telegraphis", 
+      "nodeTitle": "Telegraphis Linked Data"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/temple-ov-thee-lemur-datasets", 
       "triples": 10000, 
-      "nodeName": "Temple ov thee Lemur"
+      "nodeName": "temple-ov-thee-lemur-datasets", 
+      "nodeTitle": "Temple ov thee Lemur"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/the-view-from", 
       "triples": 368, 
-      "nodeName": "The View From"
+      "nodeName": "the-view-from", 
+      "nodeTitle": "The View From"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/transport-data-gov-uk", 
       "triples": 329527661, 
-      "nodeName": "transport.data.gov.uk"
+      "nodeName": "transport-data-gov-uk", 
+      "nodeTitle": "transport.data.gov.uk"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/twarql", 
       "triples": 4479631, 
-      "nodeName": "Twarql"
+      "nodeName": "twarql", 
+      "nodeTitle": "Twarql"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/twc-logd", 
       "triples": 8291378931, 
-      "nodeName": "TWC: Linking Open Government Data"
+      "nodeName": "twc-logd", 
+      "nodeTitle": "TWC: Linking Open Government Data"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/uberblic", 
       "triples": 100000000, 
-      "nodeName": "Uberblic.org"
+      "nodeName": "uberblic", 
+      "nodeTitle": "Uberblic.org"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/ub-mannheim-linked-data", 
       "triples": 53415605, 
-      "nodeName": "Linked Data Service der Universit\u00e4tsbibliothek Mannheim"
+      "nodeName": "ub-mannheim-linked-data", 
+      "nodeTitle": "Linked Data Service der Universit\u00e4tsbibliothek Mannheim"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/uk-legislation-api", 
       "triples": 1900000000, 
-      "nodeName": "UK Legislation"
+      "nodeName": "uk-legislation-api", 
+      "nodeTitle": "UK Legislation"
     }, 
     {
       "rating": 3, 
+      "ckanUrl": "http://ckan.net/package/uk-postcodes", 
       "triples": 27137408, 
-      "nodeName": "UK Postcodes"
+      "nodeName": "uk-postcodes", 
+      "nodeTitle": "UK Postcodes"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/umbel", 
       "triples": 277573, 
-      "nodeName": "UMBEL (Upper Mapping and Binding Exchange Layer)"
+      "nodeName": "umbel", 
+      "nodeTitle": "UMBEL (Upper Mapping and Binding Exchange Layer)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/university-plymouth-reading-lists", 
       "triples": 441476, 
-      "nodeName": "University of Plymouth Reading Lists"
+      "nodeName": "university-plymouth-reading-lists", 
+      "nodeTitle": "University of Plymouth Reading Lists"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/university-sussex-reading-lists", 
       "triples": 1762492, 
-      "nodeName": "University of Sussex Reading Lists"
+      "nodeName": "university-sussex-reading-lists", 
+      "nodeTitle": "University of Sussex Reading Lists"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/uriburner", 
       "triples": 486089121, 
-      "nodeName": "URIBurner"
+      "nodeName": "uriburner", 
+      "nodeTitle": "URIBurner"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/viaf", 
       "triples": 200000000, 
-      "nodeName": "VIAF: The Virtual International Authority File"
+      "nodeName": "viaf", 
+      "nodeTitle": "VIAF: The Virtual International Authority File"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/vivo-cornell-university", 
       "triples": 4000000, 
-      "nodeName": "VIVO Cornell"
+      "nodeName": "vivo-cornell-university", 
+      "nodeTitle": "VIVO Cornell"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/vivo-indiana-university", 
       "triples": 31105, 
-      "nodeName": "VIVO Indiana"
+      "nodeName": "vivo-indiana-university", 
+      "nodeTitle": "VIVO Indiana"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/vivo-university-of-florida", 
       "triples": 418422, 
-      "nodeName": "VIVO University of Florida"
+      "nodeName": "vivo-university-of-florida", 
+      "nodeTitle": "VIVO University of Florida"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/vu-wordnet", 
       "triples": 4573749, 
-      "nodeName": "WordNet 3.0 (VU Amsterdam)"
+      "nodeName": "vu-wordnet", 
+      "nodeTitle": "WordNet 3.0 (VU Amsterdam)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/w3c-wordnet", 
       "triples": 710000, 
-      "nodeName": "WordNet 2.0 (W3C)"
+      "nodeName": "w3c-wordnet", 
+      "nodeTitle": "WordNet 2.0 (W3C)"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/world-factbook-fu-berlin", 
       "triples": 38640, 
-      "nodeName": "World Factbook (FU Berlin)"
+      "nodeName": "world-factbook-fu-berlin", 
+      "nodeTitle": "World Factbook (FU Berlin)"
     }, 
     {
       "rating": 5, 
+      "ckanUrl": "http://ckan.net/package/yago", 
       "triples": 19012854, 
-      "nodeName": "YAGO"
+      "nodeName": "yago", 
+      "nodeTitle": "YAGO"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/zbw-pressemappe20", 
       "triples": 12000000, 
-      "nodeName": "20th Century Press Archives"
+      "nodeName": "zbw-pressemappe20", 
+      "nodeTitle": "20th Century Press Archives"
     }, 
     {
       "rating": 0, 
+      "ckanUrl": "http://ckan.net/package/zitgist-musicbrainz", 
       "triples": 60000000, 
-      "nodeName": "MusicBrainz (zitgist.com)"
+      "nodeName": "zitgist-musicbrainz", 
+      "nodeTitle": "MusicBrainz (zitgist.com)"
     }
   ], 
   "links": [
@@ -3228,6 +3658,11 @@ var lod = {
       "target": 156
     }, 
     {
+      "count": 38, 
+      "source": 143, 
+      "target": 173
+    }, 
+    {
       "count": 16, 
       "source": 143, 
       "target": 160
@@ -3251,11 +3686,6 @@ var lod = {
       "count": 4, 
       "source": 143, 
       "target": 144
-    }, 
-    {
-      "count": 38, 
-      "source": 143, 
-      "target": 173
     }, 
     {
       "count": 10, 
@@ -3883,11 +4313,6 @@ var lod = {
       "target": 166
     }, 
     {
-      "count": 30, 
-      "source": 154, 
-      "target": 155
-    }, 
-    {
       "count": 1, 
       "source": 154, 
       "target": 164
@@ -3901,6 +4326,11 @@ var lod = {
       "count": 3, 
       "source": 154, 
       "target": 156
+    }, 
+    {
+      "count": 25, 
+      "source": 154, 
+      "target": 165
     }, 
     {
       "count": 14, 
@@ -3918,9 +4348,9 @@ var lod = {
       "target": 158
     }, 
     {
-      "count": 25, 
+      "count": 30, 
       "source": 154, 
-      "target": 165
+      "target": 155
     }, 
     {
       "count": 417, 
