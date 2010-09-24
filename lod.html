@@ -13,20 +13,24 @@
   <script type="text/javascript+protovis">
 
 function nodeColor(node) {
-    if (node.rating == 5)
-        return "green";
-    else if (node.rating == 4)
-        return "lightgreen";
-    else if (node.rating == 3)
-        return "yellow";
-    else if (node.rating == 2)
-        return "orange"
-    else if (node.rating == 1)
-        return "red";
-    else 
-        return "white";
+    if (node.ratings_count == 0) return 'white';
+    return pv.color('hsl('
+        + parseInt(node.ratings_average_normalized * 100) + ',100%,'
+        + parseInt(100 - node.ratings_count_normalized * 60) + '%)');
 }
 
+var maxRatingCount = 0;
+for (var i = 0; i < lod.nodes.length; i++) {
+    if (lod.nodes[i].ratings_count > maxRatingCount) {
+        maxRatingCount = lod.nodes[i].ratings_count;
+    }
+}
+for (var i = 0; i < lod.nodes.length; i++) {
+    lod.nodes[i].ratings_count_normalized = lod.nodes[i].ratings_count / maxRatingCount;
+    if (lod.nodes[i].ratings_count > 0) {
+        lod.nodes[i].ratings_average_normalized = (lod.nodes[i].ratings_average - 1.0) / 4.0;
+    }
+}
 var maxCount = 1;
 for (var i = 0; i < lod.links.length; i++) {
     if (lod.links[i].count > maxCount) {
@@ -52,7 +56,7 @@ var force = vis.add(pv.Layout.Force)
     .nodes(lod.nodes)
     .links(lod.links)
     .bound(true)
-    .chargeConstant(-70)
+    .chargeConstant(-50)
     .springDamping(0.1)
     .springLength(20)
     .springConstant(0.01);
@@ -70,7 +74,10 @@ force.node.add(pv.Dot)
     .event("click", function(d) window.open(d.ckanUrl));
 
 force.label.add(pv.Label)
-    .visible(function(d) d.triples > 10000000);
+    .font('7px sans-serif')
+    .textStyle('#666')
+    .visible(function(d) d.triples > 5000000);
+
 
 vis.render();
 

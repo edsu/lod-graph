@@ -34,38 +34,41 @@
         <div id="content">
         <div id="about">
             <p>
-            This is a <a href="http://vis.stanford.edu/protovis/">Protovis</a> 
-            version of the (much more useful)
-            <a href="http://lod-cloud.net/">Linked Open Data Cloud</a>. 
-            It is based on the same underlying data, by using the 
-            Comprehensive Knowledge Archive Network (CKAN) 
+            This is a <strong><a href="http://vis.stanford.edu/protovis/">Protovis</a> 
+            version</strong> of the 
+            <strong><a href="http://lod-cloud.net/">Linked Open Data Cloud</a></strong>. 
+        </div>
+        <div id="graph_console">
+            <iframe id="graph" src="lod.html"></iframe>
+        </div>
+        <div>
+            <p>
+            The <strong>colors</strong> reflect the 
+            <strong>CKAN rating</strong>: datasets with high average rating are
+            green, those with low average are red.  The intensity of the color
+            signifies the number of received ratings: a strong color
+            indicates many ratings, while a near-white color indicates
+            few ratings, and unrated datasets are white.
+            </p>
+            <p>
+            If you <strong>click on any node</strong>, you will be taken
+            to the package details page at CKAN.  Nodes with more than 5,000,000
+            triples have short names next to them.  <strong>Hover</strong>
+            over any node to get its full name.
+            </p>
+            <p>
+            This visualization is based on the same underlying data as the
+            LOD Cloud, by using the Comprehensive Knowledge Archive Network (CKAN) 
             <a href="http://knowledgeforge.net/ckan/doc/ckan/api.html">API</a>
             to pull all the packages in the the 
             <a href="http://ckan.net/group/lodcloud">lodcloud</a> group.
-            If your screen <b>goes crazy</b> cross your fingers and try to 
-            reload the page a couple times. The colors reflect the 
-            CKAN rating: 
-            <span style="background-color: red; padding: 2px;">1</span>,
-            <span style="background-color: orange; padding: 2px;">2</span>,
-            <span style="background-color: yellow; padding: 2px;">3</span>,
-            <span style="background-color: lightgreen; padding: 2px;">4</span>,
-            <span style="background-color: green; padding: 2px;">5</span>, 
-            unrated datasets are white.
-            Nodes with more than 10,000,000 triples have short names next to
-            them.  You should be able to hover over any node to get its full
-            name, and if you click on it you will be taken to the package 
-            details page at CKAN.  More about how this graph was generated 
-            can be found on 
+            More about how this graph was generated can be found on 
             <a href="http://github.com/edsu/lod-graph">Github</a>.
             Comments/questions welcome at
             <a href="mailto:ehs@pobox.com">ehs@pobox.com</a>. 
             </p>
         </div>
-        <div id="graph_console">
-            <iframe id="graph" src="lod.html"></iframe>
         </div>
-        </div>
-        <br />
         <br />
         <br />
     </body>

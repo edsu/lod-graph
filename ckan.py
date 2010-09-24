@@ -51,16 +51,21 @@ def get_nodes(packages):
     nodes = []
     for package in packages:
         if package['ratings_average'] == None:
-            rating = 0
+            rating = None
         else:
-            rating = int(round(float(package['ratings_average'])))
+            rating = float(package['ratings_average'])
         if 'triples' in package['extras']:
             triples = int(package['extras']['triples'])
         else:
             triples = 1000
+        if 'shortname' in package['extras']:
+            short_title = package['extras']['shortname']
+        else:
+            short_title = package['title']
         nodes.append({
-            'rating': rating,
-            'nodeName': package['name'],
+            'ratings_average': rating,
+            'ratings_count': package['ratings_count'],
+            'nodeName': short_title,
             'nodeTitle': package['title'],
             'ckanUrl': 'http://ckan.net/package/%s' % package['name'],
             'triples': triples})
