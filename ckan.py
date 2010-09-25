@@ -7,6 +7,7 @@ Generate lod.js Protovis data file.
 import os
 import sys
 import json
+import time
 import urllib
 import logging
 import traceback
@@ -44,6 +45,9 @@ def lod_packages():
     count = 0
     for package in ckan('group/lodcloud')['packages']:
         package_info = ckan('package/%s' % package)
+        if package_info == None:
+            log.error("unable to retrieve package info for %s" % package)
+            continue
         package_info['internal_id'] = count
         packages.append(package_info)
         log.info("got info for %s" % package_info['name'])
@@ -54,8 +58,14 @@ def lod_packages():
 def ckan(path):
     """gets a JSON resource via the CKAN API
     """
-    j = urllib.urlopen('http://ckan.net/api/rest/' + path).read()
-    return json.loads(j)
+    log = logging.getLogger()
+    u = 'http://ckan.net/api/rest/' + path
+    r = urllib.urlopen('http://ckan.net/api/rest/' + path)
+    if r.getcode() == 200:
+        return json.loads(r.read())
+    else:
+        log.error("%s from ckan, unable to retrieve %s" % (r.getcode(), u))
+        return None
 
 
 def protovis_javascript(packages):
