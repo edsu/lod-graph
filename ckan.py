@@ -78,12 +78,18 @@ def protovis_javascript(packages):
 
 
 def write_javascript(javascript):
-    """safely writes protovis javascript to lod.js
+    """safely writes protovis javascript to lod.js as well as 
+    last_update.html that records the last time lod.js was updated.
     """
-    timestamp = datetime.strftime(datetime.now(), "%Y%m%dT%H%M%S")
-    tmp_file = "lod.js-%s" % timestamp
+    now = datetime.now()
+    tmp_file = "lod.js-%s" % datetime.strftime(now, "%Y%m%dT%H%M%S")
+
     open(tmp_file, "w").write(javascript)
     os.rename(tmp_file, "lod.js")
+
+    tz = time.tzname[1] if time.daylight else time.tzname[0]
+    timestamp = datetime.strftime(now, "%Y-%m-%d %H:%M:%S ") + tz 
+    file("last_update.html", "w").write(timestamp)
 
 
 def get_nodes(packages):

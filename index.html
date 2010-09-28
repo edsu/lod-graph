@@ -3,6 +3,14 @@
     <head>
         <title>Linked Open Data Graph</title>
         <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                // load the last update time for the lod.js
+                // allows index.html to stay a static file
+                $("#last_update").load("last_update.html");
+            });
+        </script>
         <style type="text/css">
             body {
                 margin-left: 10%;
@@ -27,6 +35,10 @@
             }
             #about {
             }
+            #last_update {
+                font-style: italic;
+                text-align: center;
+            }
             a { 
                 font-weight: bold;
                 text-decoration: none;
@@ -43,6 +55,9 @@
             <a href="http://lod-cloud.net/">Linked Open Data Cloud</a> 
             using data made available by the
             <a href="http://knowledgeforge.net/ckan/doc/ckan/api.html">CKAN API</a>.
+            <p id="last_update">
+            blah
+            </p>
         </div>
         <div id="graph_console">
             <iframe id="graph" src="lod.html"></iframe>
