@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Force-Directed Layout</title>
-    <script type="text/javascript" src="protovis-r3.2.js"></script>
+    <script type="text/javascript" src="protovis-d3.2.js"></script>
     <script type="text/javascript" src="lod.js"></script>
     <style type="text/css">
     body {
@@ -74,7 +74,7 @@ force.node.add(pv.Dot)
     .event("click", function(d) window.open(d.ckanUrl));
 
 force.label.add(pv.Label)
-    .font('7px sans-serif')
+    .font('9px sans-serif')
     .textStyle('#666')
     .visible(function(d) d.triples > 5000000);
 

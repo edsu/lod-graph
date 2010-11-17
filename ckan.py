@@ -88,8 +88,8 @@ def write_javascript(javascript):
     os.rename(tmp_file, "lod.js")
 
     tz = time.tzname[1] if time.daylight else time.tzname[0]
-    timestamp = datetime.strftime(now, "%Y-%m-%d %H:%M:%S ") + tz 
-    file("last_update.html", "w").write(timestamp)
+    t = datetime.strftime(now, "%Y-%m-%d %H:%M:%S ") + tz 
+    file("last_update.html", "w").write("<span>last update: %s</span>" % t)
 
 
 def get_nodes(packages):
