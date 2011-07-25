@@ -102,7 +102,7 @@ def get_nodes(packages):
         else:
             rating = float(package['ratings_average'])
         if 'triples' in package['extras']:
-            triples = int(package['extras']['triples'])
+            triples = package['extras']['triples']
         else:
             triples = 1000
         if 'shortname' in package['extras']:
